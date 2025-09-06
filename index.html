@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leanza Hijab</title>
+    <link rel="stylesheet" href="./styles/standard.css" />
+    <link rel="stylesheet" href="./styles/headerAndFooter.css" />
+    <link rel="stylesheet" href="./styles/sites.css" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" type="image/png" href="assets/img/Logo/Logo.png" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <!-- Burger-Menü -->
+        <div class="burger-menu" id="burgerMenu">
+          <div class="burger-icon" id="burgerIcon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <!-- Menü-Card mit Links -->
+          <div class="menu-links" id="menuLinks">
+            <!-- Home-Link zum Einblenden des h1 -->
+            <a href="#" id="homeLink">Home</a>
+
+            <a href="#" data-category="hijab">Hijab</a>
+            <a href="#" data-category="jilbab">Jilbab</a>
+            <a href="#" data-category="abaya">Abaya</a>
+            <a href="#" data-category="bonne">Bonne</a>
+            <a href="#" data-category="niqab">Niqab</a>
+            <a href="#" data-category="sunnah-hosen">Sunnah-Hosen</a>
+            <a href="#" data-category="jalabiyya">Jalabiyya</a>
+            <a href="#" data-category="accessoires">Accessoires</a>
+            <a href="#" data-category="kinder">Kinder</a>
+
+          </div>
+        </div>
+
+        <!-- Logo zentriert -->
+        <div class="center-logo">
+          <img
+            class="header-logo"
+            src="./assets/img/Logo/leanza-logo.png"
+            alt="Leanza Logo"
+          />
+        </div>
+
+        <!-- Instagram rechts -->
+        <div class="menu-container">
+          <a
+            class="footer-icon-right"
+            href="https://www.instagram.com/leanza.hijab?igsh=MWM1YXVlZmphYTBrcQ%3D%3D&utm_source=qr"
+          >
+            <img src="./assets/img/icons/instagram_black.png" alt="Instagram" />
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div id="bilder">
+        <div class="card">
+          <div class="card-title-overlay">
+            <h1 id="hauptTitel">Empfehlung des Tages</h1>
+          </div>
+          <img src="assets/img/placeholder.jpg" alt="Bild 1" />
+        </div>
+      </div>
+
+      <div
+        id="modal"
+        style="
+          display: none;
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100vw;
+          height: 100vh;
+          background: rgba(0, 0, 0, 0.8);
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        <img
+          id="modal-img"
+          src=""
+          alt="Großansicht"
+          style="max-width: 90vw; max-height: 90vh"
+        />
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="foot-middle">
+        <p class="foot-middle-rights">
+          © 2025 Leanza Hijab <br />
+          Alle Rechte vorbehalten.
+        </p>
+        <p class="foot-middle-links">
+          <a href="../sites/impressum.html">Impressum</a> |
+          <a href="../sites/datenschutz.html">Datenschutz</a> |
+          <a href="../sites/kontakt.html">Kontakt</a> |
+          <a href="../sites/AGB.html">AGB</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
