@@ -4,11 +4,11 @@
   height: 180px;
   background: linear-gradient(
     to right,
-    #fdf5f6,
-    #f8ede6,
-    #fdfaf5,
-    #f8ede6,
-    #fdf5f6
+    #9ED2ED,
+    #ADE0F7,
+    #BFE7F4,
+    #ADE0F7,
+    #9ED2ED
   );
   display: flex; /* Hinzugefügt */
   justify-content: space-between; /* Hinzugefügt */
@@ -130,11 +130,11 @@
   height: 180px;
   background: linear-gradient(
     to right,
-    #fdf5f6,
-    #f8ede6,
-    #fdfaf5,
-    #f8ede6,
-    #fdf5f6
+    #9ED2ED,
+    #ADE0F7,
+    #BFE7F4,
+    #ADE0F7,
+    #9ED2ED
   );
 
   width: 100%;

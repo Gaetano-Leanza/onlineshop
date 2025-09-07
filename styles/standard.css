@@ -13,7 +13,7 @@ body {
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
-  background-color: whitesmoke;
+  background-color: rgba(191, 231,  244, 1);
 }
 
 main {
